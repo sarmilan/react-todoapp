@@ -1,0 +1,64 @@
+select, input, button {
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: lightgray;
+}
+
+.input-group {
+  text-align: center;
+}
+
+.input-bar {
+  width: 75%;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-span {
+  height: 40px;
+}
+
+.submit-button {
+  height: 40px;
+  width: 45px;
+  font-size: 20px;
+}
+
+.todo-list, .todo-selector, .clear-button {
+  margin: 0 12.5% 0 12.5%;
+}
+
+.list-group {
+  list-style: none;
+  font-size: 25px;
+}
+
+.checkbox {
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+}
+
+.todo-selector {
+  height: 40px;
+  font-size: 20px;
+}
+
+.clear-button {
+  width: 200px;
+  height: 40px; 
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.center {
+  text-align: center;
+}
